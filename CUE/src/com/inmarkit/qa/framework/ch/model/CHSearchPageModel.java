@@ -23,8 +23,7 @@ public class CHSearchPageModel extends CHModelBase {
 	public WebElement searchButton() {
 		//searchButton = driver.findElement(By.xpath("//*[@class='search']"));
 		searchButton = driver.findElement(By.xpath("//*[@id='main-menu']/div/div[3]/ul[2]/li[1]/div"));
-		
-		//*[@id='main-menu']/div/div[3]/ul[2]/li[1]/div
+	
 	   return searchButton;
 	}
 
